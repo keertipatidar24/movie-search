@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <div class="logo">
+                <img src="https://media0.giphy.com/media/fS8HSZCfbabZfT0IXV/giphy.webp?cid=ecf05e477etkk85pc4bvdyeu88mpdf54qcrh2c2l5ee44id7&ep=v1_gifs_related&rid=giphy.webp&ct=g">
+            </div>
+           <h1>Movie Search</h1>
+           <input type="text" id="search-input" placeholder="Search for movies...">
+           <button id="search-btn">Search</button>
+           <button id="watchlist-btn">View Watchlist</button>
+        </header>
+
+        <!-- Image section for home page -->
+        <div class="image-background">
+            <div id="image-section">
+                <div class="image">
+                   <img src="azzi.jpeg" alt="image1">
+                   <img src="Tanhaji.jpeg" alt="image2">
+                   <img src="Pathaan.jpeg" alt="image3">
+                   <img src="movie.jpeg" alt="image4">
+                </div>
+            </div>    
+            <section id="movies-grid"></section>
+            <section id="movie-details" class="hidden"></section>
+            <section id="watchlist" class="hidden"></section>
+
+ 
+           <script src="script.js"></script>
+        </div>
+</body>
+</html>
